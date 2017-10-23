@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "280705163747",
+    "firebase_url": "https://sindikatzdravstvanotifikacije.firebaseio.com",
+    "project_id": "sindikatzdravstvanotifikacije",
+    "storage_bucket": "sindikatzdravstvanotifikacije.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:280705163747:android:cb27d26b65b2b63c",
+        "android_client_info": {
+          "package_name": "www.a2adesign.net.sindikatzdravstva"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "280705163747-573enkrsi7npf0rb0faq6c5l1lev95op.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "www.a2adesign.net.sindikatzdravstva",
+            "certificate_hash": "0fbea5771cddcf052182ca8b29469a0b2885f87c"
+          }
+        },
+        {
+          "client_id": "280705163747-r34sklff1ie95kt49buip865kvvpsvr3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHZ4GEUC0s3i2_M1N254iU691ER2PFtK8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "280705163747-r34sklff1ie95kt49buip865kvvpsvr3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

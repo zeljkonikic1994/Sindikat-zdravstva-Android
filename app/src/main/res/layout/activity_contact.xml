@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="www.a2adesign.net.sindikatzdravstva.activity.ContactActivity"
+    tools:layout_editor_absoluteY="25dp"
+    tools:layout_editor_absoluteX="0dp">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/action_bar_id"
+        android:layout_width="0dp"
+        android:layout_height="72dp"
+        android:orientation="horizontal"
+        android:background="@color/colorBlue"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="0dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+
+
+        <ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/title_bar_logo"
+            android:layout_width="0dp"
+            android:layout_height="56dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/sindikat_app_logo"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+        </ImageView>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/adresa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Дечанска 14, V спрат "
+        android:textSize="18sp"
+        tools:layout_editor_absoluteY="163dp"
+        tools:layout_editor_absoluteX="100dp"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        android:layout_marginLeft="2dp"
+        android:layout_marginBottom="12dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView" />
+
+
+    <TextView
+        android:id="@+id/mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sindikatzdravstva@yahoo.com"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteY="374dp"
+        tools:layout_editor_absoluteX="69dp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="34dp"
+        app:layout_constraintTop_toBottomOf="@+id/telefon2"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/developed_by"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Developed by"
+        tools:layout_editor_absoluteY="497dp"
+        tools:layout_editor_absoluteX="150dp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/link" />
+
+    <TextView
+        android:id="@+id/link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2A Design"
+        tools:layout_editor_absoluteY="515dp"
+        tools:layout_editor_absoluteX="161dp"
+        app:layout_constraintStart_toStartOf="@+id/developed_by"
+        android:layout_marginLeft="11dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="35dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="11000 Београд, Србија"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteY="197dp"
+        tools:layout_editor_absoluteX="98dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="197dp"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/telefon1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+381 11 32 333 48"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteY="273dp"
+        tools:layout_editor_absoluteX="118dp"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        android:layout_marginTop="54dp"
+        android:layout_marginLeft="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/telefon2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+381 11 32 390 15"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteY="318dp"
+        tools:layout_editor_absoluteX="118dp"
+        app:layout_constraintStart_toStartOf="@+id/telefon1"
+        android:layout_marginTop="23dp"
+        app:layout_constraintTop_toBottomOf="@+id/telefon1" />
+
+</android.support.constraint.ConstraintLayout>
